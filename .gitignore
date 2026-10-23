@@ -1,0 +1,12 @@
+# Variables de entorno
+.env
+
+# Archivos generados en ejecución
+alerts.json
+bridge.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
