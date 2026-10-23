@@ -141,9 +141,9 @@ Acción: Revisar zona inmediata
 | Paso | Tarea | Notas |
 |---|---|---|
 | **1. Organización** | Crear archivo `ROVER_IOT_PLAN.md` | Hecho. |
-| **2. MQTT** | Levantar `Mosquitto` localmente y probar con MQTTX | Pendiente - Probar publish/subscribe |
-| **3. ESP32** | Publicar `telemetry`, `heartbeat`, `alerts` con JSON. Escuchar `cmd`. Añadir lógica para `start/patrol` y alerta `OBSTACLE_BLOCKED` | Pendiente - Mantener lógica local de seguridad |
-| **4. Puente Telegram** | Crear bot con @BotFather, implementar puente MQTT-Telegram con whitelist, menú, comandos y alertas | Pendiente |
+| **2. MQTT** | Levantar `Mosquitto` localmente y probar publish/subscribe | Hecho |
+| **3. ESP32** | Publicar `telemetry`, `heartbeat`, `alerts` con JSON. Escuchar `cmd`. Añadir lógica para `start/patrol` y alerta `OBSTACLE_BLOCKED` | Hecho - `firmware/rover_iot` compila para ESP32 |
+| **4. Puente Telegram** | Crear bot con @BotFather, implementar puente MQTT-Telegram con whitelist, menú, comandos y alertas | Hecho - `telegram_bridge/bridge.py` probado |
 | **5. PWA Base** | Crear proyecto con `Vite + React + TypeScript + TailwindCSS + mqtt.js` | Pendiente |
 | **6. Dashboard** | Crear tarjetas, indicador online/offline, modo, patrol, botones AUTO/MANUAL/start/stop, joystick, power, E-STOP | Pendiente |
 | **7. Alertas** | Mostrar alerta en pantalla + notificaciones push | Pendiente |
